@@ -8,13 +8,11 @@
 
 def unique_sort(lst):
     returnlist = list()
-    returnlist2 = []
     for x in lst:
-        returnlist2.append(x)
         if x not in returnlist:
             returnlist.append(x)
-    print(returnlist2.sort())
-    print(returnlist.sort())
+    returnlist.sort()
+    print(returnlist)
 
 
 unique_sort([1, 2, 4, 3])
