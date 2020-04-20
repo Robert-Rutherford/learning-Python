@@ -14,5 +14,4 @@ def return_only_integer(lst):
 return_only_integer([9, 2, "space", "car", "lion", 16])
 return_only_integer(["hello", 81, "basketball", 123, "fox"])
 return_only_integer([10, "121", 56, 20, "car", 3, "lion"])
-return_only_integer(["String",  True,  3.3,  1])
-
+return_only_integer(["String", True, 3.3, 1])
